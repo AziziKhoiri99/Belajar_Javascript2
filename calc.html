@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Operasi Matematika</title>
+</head>
+<style>
+    h3 {
+        padding-left: 15px;
+    }
+    p {
+        text-align: left;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    .content {
+        text-align: left;
+        padding: 10px;
+    }
+</style>
+<body>
+    <h4>Operasi bilangan 40, 30, 70</h4>
+    <ol>
+       <li> 40 + 30 + 70 = <span id="b"></span></li>
+       <li> 40 - 30 - 70 = <span id="e"></span></li>
+       <li> 40 * 30 * 70 = <span id="h"></span></li>
+       <li> 40 / 30 / 70 = <span id="k"></span></li>
+    </ol>
+    
+    <h3>PerTambahan</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="" id="fir">
+        </div>
+        +
+        <div class="content">
+            <input type="number" name="" id="sec">
+        </div>
+        <div class="content">
+            <button onclick="plus()">=</button>
+        </div>
+        <p id="has"></p>
+    </div>
+    <h3>Pengurangan</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="" id="fir2">
+        </div>
+        -
+        <div class="content">
+            <input type="number" name="" id="sec2">
+        </div>
+        <div class="content">
+            <button onclick="minus()">=</button>
+        </div>
+        <p id="has2"></p>
+    </div>
+    <h3>PerKalian</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="" id="fir3">
+        </div>
+        x
+        <div class="content">
+            <input type="number" name="" id="sec3">
+        </div>
+        <div class="content">
+            <button onclick="kali()">=</button>
+        </div>
+        <p id="has3"></p>
+    </div>
+    <h3>Pembagian</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="" id="fir4">
+        </div>
+        /
+        <div class="content">
+            <input type="number" name="" id="sec4">
+        </div>
+        <div class="content">
+            <button onclick="bagi()">=</button>
+        </div>
+        <p id="has4"></p>
+    </div>
+    <h3>Hitung Nilai</h3>
+    <div style="display: flex;">
+        <div class="content">
+            <input type="number" name="" id="angka">
+        </div>
+        <div class="content">
+            <button onclick="nilai()">=</button>
+        </div>
+        <p id="sekolah"></p>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
